@@ -4,7 +4,7 @@ const ContactLayout = ({ children }) => {
   return (
     <>
       <header>
-        <h1>Country Labor</h1>
+        <h1>Country Labor!</h1>
         <Link to={routes.home()}>Login Page</Link>
         <nav>
           <ul>
