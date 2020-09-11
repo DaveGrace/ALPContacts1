@@ -1,7 +1,6 @@
 datasource DS {
   // optionally set multiple providers
-  // example: provider = ["sqlite", "postgresql"]
-  provider = "sqlite"
+  provider = ["sqlite", "postgresql"]
   url      = env("DATABASE_URL")
 }
 
@@ -30,5 +29,6 @@ model OrgContact {
   email                String   @unique
   createdAt            DateTime @default(now())
 
-
+  git remote add origin https://github.com/DaveGrace/ALPContacts.git
+  git push -u origin master
 }
