@@ -28,7 +28,4 @@ model OrgContact {
   alpMembers           Boolean
   email                String   @unique
   createdAt            DateTime @default(now())
-
-  git remote add origin https://github.com/DaveGrace/ALPContacts.git
-  git push -u origin master
 }
