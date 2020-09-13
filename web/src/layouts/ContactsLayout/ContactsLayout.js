@@ -13,7 +13,7 @@ const ContactLayout = ({ children }) => {
               <h1>Welcome</h1>
               <h2>Eurobodalla Country Labor Contact List</h2>
             </li>
-            <Link to={routes.orgContact()}>Contact Page</Link>
+            <Link to={routes.orgContacts()}>Contact Page</Link>
           </ul>
         </nav>
       </header>
